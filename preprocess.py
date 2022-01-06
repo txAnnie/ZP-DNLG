@@ -176,7 +176,6 @@ def build_save_vocab(train_dataset, fields, opt):
                                    opt.tgt_vocab,
                                    opt.tgt_vocab_size,
                                    opt.tgt_words_min_frequency)
-    #input(fields)
     # Can't save fields, so remove/reconstruct at training time.
     vocab_file = opt.save_data + '.vocab.pt'
     torch.save(inputters.save_fields_to_vocab(fields), vocab_file)
@@ -196,7 +195,7 @@ def main():
 
     logger.info("Building `Fields` object...")
     fields = inputters.get_fields(opt.data_type, src_nfeats, tgt_nfeats)
-    #input(fields['src'].__dict__.items())
+
     logger.info("Building & saving training data...")
     train_dataset_files = build_save_dataset('train', fields, opt)
 

@@ -1,5 +1,5 @@
 VERSION = 1
-SET = 99
+SET = 1
 Distribute = True
 balance = False
 replace_sentence = False
