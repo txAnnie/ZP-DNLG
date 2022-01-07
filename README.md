@@ -6,7 +6,7 @@ This repo. is prepared for the conference paper "**Coupling Context Modeling wit
 
 1. Processing Source Data with Zero Pronoun Position Detected
 
-The source data of pro-drop language first processed with zero pronoun position detected. For this zero pronoun preprocess period, we provide the trained model on Chinese language in DPro_model. 
+The source data of pro-drop language was first processed with zero pronoun position detected. For this zero pronoun preprocess period, we provide the trained model on the Chinese language in DPro_model. 
 
 2. Training NMT Model
 
